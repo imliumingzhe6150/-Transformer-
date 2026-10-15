@@ -1,0 +1,12 @@
+[project]
+name = "building-load-forecast"
+version = "0.1.0"
+description = "Reproducible first-stage building electricity forecasting experiment"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "numpy>=2.0,<3",
+    "pandas>=2.2,<3",
+    "torch>=2.5,<3",
+    "matplotlib>=3.9,<4",
+]
+
